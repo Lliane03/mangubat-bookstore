@@ -1,0 +1,339 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    cursor: pointer;
+    width: 350px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+  
+.icon {
+    font-size: 22px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+  
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 15cm;
+    height: 25px;
+    font-size: medium;
+}
+  
+.search-bar button {
+    background-color: #ff5a5f;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+}
+
+.search-bar button:hover {
+    transform: translateX(-3px);
+}
+
+button {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.book-cover {
+    text-align: center;
+}
+
+.book-cover img {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.book-cover h1 {
+    font-size: 36px;
+    margin: 20px 0 10px;
+}
+
+.book-cover p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 2px;
+}
+
+.book-description {
+    max-width: 600px;
+}
+
+.book-description h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.book-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.book-description blockquote {
+    font-size: 20px;
+    font-style: italic;
+    color: #3e8e41;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.book-description button {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.book-description button:hover {
+    transform: translateY(3px);
+}
+
+.other-genres {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.other-genres h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.other-genres ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.other-genres li{
+    width: 25%;
+    margin: 25px;
+}
+
+.other-genres img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.other-genres img:hover {
+    transform: translateY(-8px);
+}
+
+.other-genres h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.other-genres h3:hover {
+    color: #0300ac;
+}
+
+.other-genres p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.other-genres button {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.other-genres button:hover {
+    background-color: #3e8e41;
+}
+
+footer {
+    background-color: #f4f4f4;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.conditions {
+    display:flex;
+    justify-content: center;
+}
+
+.conditions p {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 2px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.conditions p:hover {
+    color:#3e8e41;
+}
+
+/* From Uiverse.io by javierBarroso */ 
+.social-login-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #00000055);
+}
+
+.social-login-icons svg {
+    width: 40px;
+}
+  
+.social-icon-1, .social-icon-1-1, .social-icon-2, .social-icon-2-2, .social-icon-3, .social-icon-3-3, .social-icon-4, .social-icon-4-4 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 20px 0 0px 0;
+}
+  
+.icon svg {
+    fill: #111;
+}
+  
+.socialcontainer {
+    height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-icon-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0);
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+}
+  
+.social-icon-1 svg, .social-icon-2 svg, .social-icon-3 svg, .social-icon-4 svg {
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.social-icon-1-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0, 0);
+}
+  
+.socialcontainer:hover .social-icon-1 {
+    transform: translateY(-70px);
+}
+  
+.socialcontainer:hover .social-icon-1 svg, .socialcontainer:hover .social-icon-2 svg, .socialcontainer:hover .social-icon-3 svg, .socialcontainer:hover .social-icon-4 svg {
+    opacity: 1;
+}
+
+.social-icon-2 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: linear-gradient(
+      72.44deg,
+      #ff7a00 11.92%,
+      #ff0169 51.56%,
+      #d300c5 85.69%
+    );
+}
+  
+.socialcontainer:hover .social-icon-2 {
+    transform: translateY(-70px);
+}
+
+.social-icon-3 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: #316ff6;
+}
+    
+.socialcontainer:hover .social-icon-3 {
+    transform: translateY(-70px);
+}
+
+.social-icon-4 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  
+    background: linear-gradient(
+      180deg,
+      rgba(129, 34, 144, 1) 0%,
+      rgba(77, 34, 124, 1) 91%
+    );
+}
+  
+.socialcontainer:hover .social-icon-4 {
+    transform: translateY(-70px);
+}
+  
